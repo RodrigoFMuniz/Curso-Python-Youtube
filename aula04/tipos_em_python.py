@@ -1,91 +1,10 @@
-# Curso Python - Básico ao intermediário Youtube
+''' 
+TIPOS PRIMITIVOS
 
-## Roadmap
 
-![Rodamap](readme.assets/roteiro_de_aula.png)
+Tipo Primitivo são os tipos de dados mais simples, isto é, a informação em sua forma mais primitiva. Bons exemplos de valores primitivos são os caractere, os número, o valor True e o False e etc. A documentação do Python não trata os tipos de dados elementares (primitivos) com a nomenclatura normalmente encontrada na documentação da maioria das linguagens: Tipo Primitivo. Na documentação oficial, os tipos primitivos são chamados de tipos built-ins ou então, tipos construídos. Essa nomenclatura é utilizada para indicar que estamos utilizando informações que foram definidas, por padrão, através de classes dentro da Máquina Virtual do Python.
 
-## Aula 1
-
-### Declaração de variáveis
-
-    a = 'Hello World !!!'
-    b = "Nova declaração"
-
-    print(a)
-    print(b)
-
-    b = a
-
-    print(b)
-
-## Aula 02
-
-### Comentários
-
-    # Comentário de uma linha
-
-    a = 'Hello World !!!' # comentário de uma linha em sequência ao script
-    b = "Nova declaração"
-
-    '''
-    Comentário de múltiplas
-    linhas
-    '''
-
-    c = '''
-    Comentário de múltiplas
-    linhas atribuído a uma variável
-    '''
-    d = # Gerará um erro
-
-    print(a)
-    print(b)
-    print(c)
-    print(d)
-
-## Aula 03
-
-### Strings
-
-    #Variáveis declaradas
-
-    a = "Hello World !!!"
-    b = 10
-    c = 10.0
-
-    #Impressão
-
-    print("Hello world diretamente no argumento da função")
-    print(a)
-    print('Texto', a)
-    print('Texto concatenado ' + a)
-    # print('Texto concatenado ' + b) # Não pode concatenar non srings com string. é necessário o parse antes.
-    print('Texto concatenado ' + str(b))
-
-    # Impressões formatadas
-
-    print("Texto formatado: %s" %a)
-    print("Texto formatado: %s e %d" %(a, b))
-    print("Texto formatado: %s e %f" %(a, c))
-
-    # Usando .format
-
-    print("Texto formatado: {}".format(a))
-    print("Texto formatado: {} e {}".format(a, b))
-    print("Texto formatado: {} e {}".format(a,b))
-
-    # f strings
-
-    print(f'{a} - {b} - {c:.2f}')
-    print(f'{a} - {b + 100} - {c:.2f}')
-
-## Um pouco sobre como o Python trata as variáveis internas
-
-### TIPOS PRIMITIVOS
-
-**_Tipo Primitivo_** são os tipos de dados mais simples, isto é, a informação em sua forma mais primitiva. Bons exemplos de valores primitivos são os caractere, os número, o valor True e o False e etc. A documentação do Python não trata os tipos de dados elementares (primitivos) com a nomenclatura normalmente encontrada na documentação da maioria das linguagens: Tipo Primitivo. Na documentação oficial, os tipos primitivos são chamados de tipos **_built-ins_** ou então, **_tipos construídos_**. Essa nomenclatura é utilizada para indicar que estamos utilizando informações que foram definidas, por padrão, através de classes dentro da Máquina Virtual do Python.
-
-Nesse momento, chamaremos de Tipos Primitivos as informações em sua forma mais simples, porém, é importante saber que para o Python, **não há tipo primitivos**, mas sim, estruturas de dados que estão definidas, na maior parte das vezes, dentro da própria Máquina Virtual do Python.
+Nesse momento, chamaremos de Tipos Primitivos as informações em sua forma mais simples, porém, é importante saber que para o Python, não há tipo primitivos, mas sim, estruturas de dados que estão definidas, na maior parte das vezes, dentro da própria Máquina Virtual do Python.
 
 É normal que as linguagens de programação tenham um conjunto de tipos chamados de: tipos primitivos. Devemos pensar nessa classificação como sendo os tipos primários de informações, como por exemplo, o tipo numérico. Como sabemos, todo número é constituído por algarismos. Dessa forma, o tipo numérico pode ser qualquer valor que seja composto por 1 ou mais caracteres numéricos.
 
@@ -95,16 +14,17 @@ Da mesma forma, temos o tipo de dado que representa conjuntos de caracteres, que
 
 O fato de o Python não trabalhar com tipo primitivos diretamente, deve-se ao fato de que em Python, tudo são objetos. Dessa forma, o que chamaríamos de primitivo é, em Python, representado como uma e toda informação será, um objeto propriamente dito. A seguir, temos a lista dos principais tipos built-ins da linguagem Python:
 
-- int - para números inteiros
-- str - para conjunto de caracteres
-- bool - armazena True ou False
-- list - para agrupar um conjunto de elementos
-- tupla - semelhante ao tipo list, porém, imutável
-- dic - para agrupar elementos que serão recuperados por uma chave
+int - para números inteiros
+str - para conjunto de caracteres
+bool - armazena True ou False
+list - para agrupar um conjunto de elementos
+tupla - semelhante ao tipo list, porém, imutável
+dic - para agrupar elementos que serão recuperados por uma chave
 
 O Python fornece um conjunto de tipos básicos bastante amplo e que normalmente, atendem a maioria das necessidades. Cada tipo citado, possui um conjunto de funções e métodos que permitem manipularmos as informações, contidas na variável, de maneira bastante eficiente.
 
 Sempre que formos criar um novo tipo de dados, acabaremos utilizando os tipos básicos da linguagem, como por exemplo, o tipo `int`, ou então, o tipo `str` e assim por diante.
+
 
 DIFERENÇA ENTRE TIPO E VALOR
 
@@ -120,7 +40,9 @@ Em Python tudo é tratado como objeto
 
 Existem 4 tipos para classificação para os tipos de informações.
 
-- Tipos simples - constituidos por simples blocos, como int() e float()
-- Tipos de contêiner - objetos capazes de conter outros objetos
-- Tipos de código - objetos encapsuladores de elementos dos nosso programas
-- Tipos internos - tipos que serão utilizados durante a execução do nosso programa
+Tipos simples - constituidos por simples blocos, como int() e float()
+Tipos de contêiner - objetos capazes de conter outros objetos
+Tipos de código - objetos encapsuladores de elementos dos nosso programas
+Tipos internos - tipos que serão utilizados durante a execução do nosso programa
+
+'''
