@@ -1,6 +1,13 @@
 ''' 
-TIPOS PRIMITIVOS
 
+TIPOS
+
+O tipo é uma forma de classificar as informação. As linguagens de programação normalmente trazem implementado o que é chamado de tipos primitivos, isto é, o tipo de dado mais genérico possível.
+
+Toda informação que manipularemos será, por definição, de um tipo.
+
+
+TIPOS PRIMITIVOS
 
 Tipo Primitivo são os tipos de dados mais simples, isto é, a informação em sua forma mais primitiva. Bons exemplos de valores primitivos são os caractere, os número, o valor True e o False e etc. A documentação do Python não trata os tipos de dados elementares (primitivos) com a nomenclatura normalmente encontrada na documentação da maioria das linguagens: Tipo Primitivo. Na documentação oficial, os tipos primitivos são chamados de tipos built-ins ou então, tipos construídos. Essa nomenclatura é utilizada para indicar que estamos utilizando informações que foram definidas, por padrão, através de classes dentro da Máquina Virtual do Python.
 
@@ -24,6 +31,7 @@ dic - para agrupar elementos que serão recuperados por uma chave
 O Python fornece um conjunto de tipos básicos bastante amplo e que normalmente, atendem a maioria das necessidades. Cada tipo citado, possui um conjunto de funções e métodos que permitem manipularmos as informações, contidas na variável, de maneira bastante eficiente.
 
 Sempre que formos criar um novo tipo de dados, acabaremos utilizando os tipos básicos da linguagem, como por exemplo, o tipo `int`, ou então, o tipo `str` e assim por diante.
+
 
 
 DIFERENÇA ENTRE TIPO E VALOR
