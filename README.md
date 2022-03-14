@@ -68,6 +68,12 @@
     print("Texto formatado: %s e %d" %(a, b))
     print("Texto formatado: %s e %f" %(a, c))
 
+    # Usando .format
+
+    print("Texto formatado: {}".format(a))
+    print("Texto formatado: {} e {}".format(a, b))
+    print("Texto formatado: {} e {}".format(a,b))
+
     # f strings
 
     print(f'{a} - {b} - {c:.2f}')
