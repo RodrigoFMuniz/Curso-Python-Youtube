@@ -19,3 +19,6 @@ print(n2.__lt__(10))
 print(n2.__gt__(10))
 print(n1.__bool__())
 print(n1.__format__('.2f'))
+print(n1.__dir__())
+print(n1.__hash__())
+

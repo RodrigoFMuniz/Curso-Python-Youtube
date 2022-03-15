@@ -243,3 +243,5 @@ Existem 4 tipos para classificação para os tipos de informações.
     print(n2.__gt__(10))
     print(n1.__bool__())
     print(n1.__format__('.2f'))
+    print(n1.__dir__())
+    print(n1.__hash__())
