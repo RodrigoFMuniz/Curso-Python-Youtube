@@ -31,7 +31,7 @@ result_after_remove = l1.remove('entrou depois do valor que estava no index 1')
 print('Lista 1 (remove):', l1)
 print('res_remove: ',result_after_remove)
 
-# Count
+# Count - retorna a quantidade do valor argumentado
 
 l1.append(2)
 l1.append(2)
@@ -39,7 +39,18 @@ l1.append(3)
 l1.append(3)
 l1.append(3)
 l1.append(3)
+l1.append(5)
 l1.append(4)
 print('Lista 1 (after appends):', l1)
 print('Qtd de valores 3 na lista ==',l1.count(3))
+
+# Index - retorna o indice do valor argumentado
+
+print('Indice do item 4 ==', l1.index(4))
+print('Indice do item 5 ==',l1.index(5))
+
+# Reverse
+
+print('Reversed l1:', l1.reverse())
+print('lista 1',l1)
 
