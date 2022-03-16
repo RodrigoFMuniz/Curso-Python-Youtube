@@ -1,6 +1,3 @@
-from base64 import b16encode
-
-
 b1 = False
 b2 = True
  
