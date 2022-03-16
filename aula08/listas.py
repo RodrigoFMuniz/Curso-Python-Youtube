@@ -49,8 +49,26 @@ print('Qtd de valores 3 na lista ==',l1.count(3))
 print('Indice do item 4 ==', l1.index(4))
 print('Indice do item 5 ==',l1.index(5))
 
-# Reverse
+# Reverse - não retorna valor. Inverte a lista
 
 print('Reversed l1:', l1.reverse())
 print('lista 1',l1)
+print('Reversed l1 again:', l1.reverse())
+print('lista 1',l1)
+
+# Sort - não retorna valor. ordena a lista
+print('lista 1 (Sort)',l1)
+print('Sort l1 (Sort): ', l1.sort())
+print('lista 1 (Sort)',l1)
+
+# Sorted - retorna a lista ordenada, porém não a ordena permanetemente
+
+print('lista 1: ',l1)
+l1.append(4)
+l1.append(3)
+l1.append(1)
+print('lista 1: ',l1)
+print('lista 1(sorted): ',sorted(l1))
+print('lista 1 after sorted: ',l1)
+
 
