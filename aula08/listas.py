@@ -71,4 +71,27 @@ print('lista 1: ',l1)
 print('lista 1(sorted): ',sorted(l1))
 print('lista 1 after sorted: ',l1)
 
+# Copy - Faz uma cópia independente da lista
+
+l2 = l1.copy()
+
+print('Lista 1(copy):',l1)
+print('Lista 2 (copy):',l2)
+print(l1 == l2)
+print(id(l1) == id(l2))
+l1.append('item teste')
+print('Lista 1(copy):',l1)
+print('Lista 2 after append(copy):',l2)
+
+# Extend - Insere os valores da lista extendida. Não possui retorno
+l3 = ['batata','feijão','arroz']
+print('Lista 1 (extend)',l1.extend(l3))
+print('Lista 1 (extend)',l1)
+
+# Clear
+print('Lista 1 before clear(clear):',l1)
+print('Res l1 after clear: ',l1.clear())
+print('Lista 1 before after(clear):',l1)
+
+
 
