@@ -20,3 +20,14 @@ print('Set 1 após pop: ',s1)
 
 print('Printando o retorno após o remove: ',s1.remove(4))
 print('Set 1 após remove: ',s1)
+
+# Update
+
+s2 = {10, 20, 30, 40, 50, 60}
+print('Set 1 antes do update: ',s1)
+print('Set 2 antes do update: ',s2)
+
+print('Retorno após o update de s1 com s2: ', s1.update(s2))
+
+print('Set 1 após do update: ',s1) #s1 alterado permanentemente
+print('Set 2 após do update: ',s2)
