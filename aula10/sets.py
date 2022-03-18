@@ -9,9 +9,14 @@ print('Métodos ', dir(s1))
 print(s1.add(7))
 print('Set 1 após add: ',s1)
 
-#Pop
+#Pop - retorna o valor o removido
 
 print('Printando o retorno após o pop: ',s1.pop())
 print('Set 1 após pop: ',s1)
 print('Printando o retorno após o pop: ',s1.pop()) #Retira o primeiro item do set
 print('Set 1 após pop: ',s1)
+
+# Remove
+
+print('Printando o retorno após o remove: ',s1.remove(4))
+print('Set 1 após remove: ',s1)
