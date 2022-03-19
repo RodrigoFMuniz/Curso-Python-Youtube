@@ -31,3 +31,12 @@ print('Retorno após o update de s1 com s2: ', s1.update(s2))
 
 print('Set 1 após do update: ',s1) #s1 alterado permanentemente
 print('Set 2 após do update: ',s2)
+
+# Union - Não altera os sets
+
+s3 = {100,200,300,400}
+print('Set 1 antes do union: ',s1)
+print('Set 3 antes do union: ',s3)
+print('Resultado do union: ',s1.union(s3))
+print('Set 1 após do union: ',s1)
+print('Set 3 após do union: ',s3)
