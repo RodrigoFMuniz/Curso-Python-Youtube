@@ -55,3 +55,11 @@ print("S3 and S1: ",s3.intersection(s1))
 print('Set 1 após intersection: ',s1)
 print('Set 3 após intersection: ',s3)
 
+# Difference_update - altera os sets envolvidos
+
+print('Set 1 antes de difference: ',s1)
+print('Set 3 antes de difference: ',s3)
+print("S1 - S3: ",s1.difference_update(s3))
+print('Set 1 após difference_update: ',s1)
+print('Set 3 após difference_update: ',s3)
+
