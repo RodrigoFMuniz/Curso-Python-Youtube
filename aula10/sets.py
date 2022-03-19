@@ -72,4 +72,13 @@ print("S1 and S3: ",s1.intersection_update(s4))
 print('Set 1 após intersection: ',s1)
 print('Set 4 após intersection: ',s4)
 
+# Symetric_difference - Remove valores que existem simultaneamente nos dois conjuntos e retorna o restante
+
+s5 = {2,3,5,40,200,100,1000}
+print('Set 1 antes de symmetric_difference: ',s1)
+print('Set 5 antes de symmetric_difference: ',s5)
+print("S1 - S3: ",s1.symmetric_difference(s5))
+print('Set 1 após symmetric_difference: ',s1)
+print('Set 5 após symmetric_difference: ',s5)
+
 
