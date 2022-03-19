@@ -55,11 +55,21 @@ print("S3 and S1: ",s3.intersection(s1))
 print('Set 1 após intersection: ',s1)
 print('Set 3 após intersection: ',s3)
 
-# Difference_update - altera os sets envolvidos
+# Difference_update - altera os sets envolvidos 
 
 print('Set 1 antes de difference: ',s1)
 print('Set 3 antes de difference: ',s3)
 print("S1 - S3: ",s1.difference_update(s3))
 print('Set 1 após difference_update: ',s1)
 print('Set 3 após difference_update: ',s3)
+
+#Intersection_Update - altera os sets envolvidos permanentemente
+
+s4 = {5,6,40, 1000, 2000}
+print('Set 1 antes de intersection: ',s1)
+print('Set 4 antes de intersection: ',s4)
+print("S1 and S3: ",s1.intersection_update(s4))
+print('Set 1 após intersection: ',s1)
+print('Set 4 após intersection: ',s4)
+
 
