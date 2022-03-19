@@ -47,3 +47,11 @@ print("S1 - S3: ",s1.difference(s3))
 print("S3 - S1: ",s3.difference(s1))
 print('Set 1 após difference: ',s1)
 print('Set 3 após difference: ',s3)
+
+# Interesection - Não altera nenhum dos sets envolvidos
+
+print("S1 and S3: ",s1.intersection(s3))
+print("S3 and S1: ",s3.intersection(s1))
+print('Set 1 após intersection: ',s1)
+print('Set 3 após intersection: ',s3)
+
