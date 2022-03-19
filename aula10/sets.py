@@ -23,7 +23,7 @@ print('Set 1 após remove: ',s1)
 
 # Update
 
-s2 = {10, 20, 30, 40, 50, 60}
+s2 = {10, 20, 30, 40, 50, 60, 200}
 print('Set 1 antes do update: ',s1)
 print('Set 2 antes do update: ',s2)
 
@@ -40,3 +40,10 @@ print('Set 3 antes do union: ',s3)
 print('Resultado do union: ',s1.union(s3))
 print('Set 1 após do union: ',s1)
 print('Set 3 após do union: ',s3)
+
+# Difference - Um conjunto - outro conjunto - Não altera nenhum dos sets envolvidos
+
+print("S1 - S3: ",s1.difference(s3))
+print("S3 - S1: ",s3.difference(s1))
+print('Set 1 após difference: ',s1)
+print('Set 3 após difference: ',s3)
