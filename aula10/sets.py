@@ -81,4 +81,12 @@ print("S1 - S3: ",s1.symmetric_difference(s5))
 print('Set 1 após symmetric_difference: ',s1)
 print('Set 5 após symmetric_difference: ',s5)
 
+# Symetric_difference_update - Atualiza permanentemente, não retorna valor algum
+
+print('Set 1 antes de symmetric_difference_update: ',s1)
+print('Set 5 antes de symmetric_difference_update: ',s5)
+print("S1 - S3: ",s1.symmetric_difference_update(s5))
+print('Set 1 após symmetric_difference_update: ',s1)
+print('Set 5 após symmetric_difference_update: ',s5)
+
 
