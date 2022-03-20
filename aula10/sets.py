@@ -103,4 +103,11 @@ print('Set 6 (Copy):',s6)
 print('Id s1: ',id(s1))
 print('Id s6: ',id(s6))
 
+# Clear, remove todos os elementos do set, não retorna nada
+print('Set 1 (Clear):',s1)
+print('Clear s1: ', s1.clear())
+print('Set 1 (Clear):',s1)
+
+
+
 
