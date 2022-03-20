@@ -90,8 +90,8 @@ print('Set 1 após symmetric_difference_update: ',s1)
 print('Set 5 após symmetric_difference_update: ',s5)
 
 
-# Discard - Elimina um item do set
+# Discard - Elimina um item do set, não retorna valores. Semelhante ao remove
 
 print('Set 1 (Discard):',s1)
-s1.discard(200)
+print(s1.discard(100))
 print('Set 1 (Discard):',s1)
