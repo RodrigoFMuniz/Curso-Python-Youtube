@@ -95,3 +95,12 @@ print('Set 5 após symmetric_difference_update: ',s5)
 print('Set 1 (Discard):',s1)
 print(s1.discard(100))
 print('Set 1 (Discard):',s1)
+
+# Copy
+print('Set 1 (Copy):',s1)
+s6 = s1.copy()
+print('Set 6 (Copy):',s6)
+print('Id s1: ',id(s1))
+print('Id s6: ',id(s6))
+
+
