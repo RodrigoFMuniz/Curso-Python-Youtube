@@ -14,6 +14,7 @@ print('Dict 1 (update) depois:',d1)
 
 print('Dict 1 (get) antes:',d1)
 print('retorno de Get: ', d1.get('el_2'))
+print('retorno de Get: ', d1.get('el_20','Chave não encontrada'))
 print('Dict 1 (get) Depois:',d1)
 
 
