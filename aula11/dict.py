@@ -17,5 +17,13 @@ print('retorno de Get: ', d1.get('el_2'))
 print('retorno de Get: ', d1.get('el_20','Chave não encontrada'))
 print('Dict 1 (get) Depois:',d1)
 
+# Pop, Retorna o valor deletado
+
+print('Dict 1 (pop) antes:',d1)
+print('retorno de pop: ', d1.pop('el_2'))
+print('retorno de pop: ', d1.pop('el_20', 'Retorno default'))
+print('Dict 1 (pop) antes:',d1)
+
+
 
 
