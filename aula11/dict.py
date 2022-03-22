@@ -22,7 +22,14 @@ print('Dict 1 (get) Depois:',d1)
 print('Dict 1 (pop) antes:',d1)
 print('retorno de pop: ', d1.pop('el_2'))
 print('retorno de pop: ', d1.pop('el_20', 'Retorno default'))
-print('Dict 1 (pop) antes:',d1)
+print('Dict 1 (pop) depois:',d1)
+
+# Popitem, Retorna o valor deletado
+
+print('Dict 1 (popitem) antes:',d1)
+print('retorno de popitem: ', d1.popitem())
+print('Dict 1 (popitem) depois:',d1)
+
 
 
 
