@@ -36,6 +36,14 @@ print('Dict 1 (items) antes:',d1)
 print('retorno de items: ', d1.items())
 print('Dict 1 (items) depois:',d1)
 
+# Values
+
+print('Dict 1 (values) antes:',d1)
+print('retorno de values: ', d1.values())
+print('retorno de values: ', type(d1.values()))
+print('Dict 1 (values) depois:',d1)
+
+
 
 
 
