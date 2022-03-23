@@ -40,10 +40,15 @@ print('Dict 1 (items) depois:',d1)
 
 print('Dict 1 (values) antes:',d1)
 print('retorno de values: ', d1.values())
+print('retorno de values: ', d1.values())
 print('retorno de values: ', type(d1.values()))
 print('Dict 1 (values) depois:',d1)
 
+#Fromkeys
 
+print('Dict 1 (fromkeys) antes:',d1)
+print('retorno de fromkeys: ', d1.fromkeys("el_1"))
+print('Dict 1 (fromkeys) depois:',d1)
 
 
 
