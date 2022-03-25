@@ -50,5 +50,14 @@ print('Dict 1 (fromkeys) antes:',d1)
 print('retorno de fromkeys: ', d1.fromkeys("el_1"))
 print('Dict 1 (fromkeys) depois:',d1)
 
+# Copy
+
+print('Dict 1 (copy) antes:',d1)
+d2 = d1.copy()
+print('Dict 1 (copy) depois:',d1)
+print('Dict 2 (copy) depois:',d2)
+print('Dict 1 type (copy):',id(d1))
+print('Dict 2 type (copy):',id(d2))
+
 
 
