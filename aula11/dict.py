@@ -59,5 +59,14 @@ print('Dict 2 (copy) depois:',d2)
 print('Dict 1 type (copy):',id(d1))
 print('Dict 2 type (copy):',id(d2))
 
+# clear
+
+print('Dict 1 (clear) antes:',d1)
+print('Clear d1: ', d1.clear())
+print('Dict 1 (clear) depois:',d1)
+
+
+
+
 
 
