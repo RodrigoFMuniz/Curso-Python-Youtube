@@ -596,3 +596,11 @@ Existem 4 tipos para classificação para os tipos de informações.
         print('Retornou 10 em binário')
     else:
         print(f'Outro número {c}')
+
+# While
+
+    a = 10
+
+    while a < 20:
+        print(a)
+        a+=1
