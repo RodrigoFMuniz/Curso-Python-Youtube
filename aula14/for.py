@@ -7,3 +7,10 @@ for elemento in a:
 
 for (indice, elemento) in enumerate(a):
     print(f'{indice} - {elemento}')
+
+# for - else
+
+for (indice, elemento) in enumerate(a):
+    print(f'{indice} - {elemento}')
+else:
+    print('Acabou o for')
