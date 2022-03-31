@@ -605,6 +605,15 @@ Existem 4 tipos para classificação para os tipos de informações.
         print(a)
         a+=1
 
+    # while - else
+
+    while a < 20:
+        print(a)
+        a+=1
+
+    else:
+        print('Acabou o while')
+
 # for
 
     a = [1,2,3,4,5]
