@@ -632,3 +632,10 @@ Existem 4 tipos para classificação para os tipos de informações.
         print(f'{indice} - {elemento}')
     else:
         print('Acabou o for')
+
+# List comprehension
+
+    l1 = [x for x in range(10)]
+    l2 = list(range(0, 10))
+    print(l1)
+    print(l2)
