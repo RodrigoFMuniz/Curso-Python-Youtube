@@ -673,3 +673,11 @@ Existem 4 tipos para classificação para os tipos de informações.
     print(l1)
     print(l2)
     print([x for x in l3 if 'Ca' in x])
+
+# Pass and ellipsis
+
+    def a_random_func():
+        pass
+
+    def a_second_random_func():
+        ...
