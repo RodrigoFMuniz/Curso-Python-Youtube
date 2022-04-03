@@ -21,3 +21,9 @@ d7, d8, *d9 = dic2.values()
 print(d7)
 print(d8)
 print(d9)
+
+# para ignorar items da desestruturação, usar _
+dic3 = {'var 1':'value 1', 'var 2':'value 2','var 3':'value 3','var 4':'value 4'}
+_, d10, *_ = dic2.items()
+print(d10)
+print(_)
