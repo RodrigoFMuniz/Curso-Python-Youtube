@@ -768,3 +768,16 @@ Existem 4 tipos para classificação para os tipos de informações.
     print("a or b:",a or b)
     print("b or c:",b or c)
     print("d or b:",d or b)
+
+# Dict comprehension
+
+    list1 = [
+        ('index 1', 'valor 1'),
+        ('index 2', 'valor 2'),
+        ('index 3', 'valor 3'),
+        ('index 4', 'valor 4')
+    ]
+
+    dic1 = {a:b for a,b in list1}
+
+    print(dic1)
