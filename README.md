@@ -723,3 +723,16 @@ Existem 4 tipos para classificação para os tipos de informações.
     _, d10, *_ = dic2.items()
     print(d10)
     print(_)
+
+# Relacionais
+
+    a = 20
+    b = 30
+    c = 30
+
+    print("a > b:",a > b)
+    print("a > c:",a > c)
+    print("b <= c:",b <= c)
+    print("b >= c:",b >= c)
+    print("a == c:",a == c)
+    print("b == c:",b == c)
