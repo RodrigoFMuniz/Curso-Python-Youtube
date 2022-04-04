@@ -724,6 +724,17 @@ Existem 4 tipos para classificação para os tipos de informações.
     print(d10)
     print(_)
 
+# Swapping variables values
+
+    a = 3
+    b = 5
+
+    print('a :',a)
+    print('b :', b)
+    a, b = b, a
+    print('a :',a)
+    print('b :', b)
+
 # Relacionais
 
     a = 20
