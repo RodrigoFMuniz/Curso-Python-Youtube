@@ -15,3 +15,11 @@ for it in b:
 #lambda em reduce
 c = reduce(lambda total, x : total + x, l1, 0)
 print('Total do reduce: ', c)
+
+
+# Lambda usado com função
+
+def sum(*v):
+    return reduce(lambda a,x: a+x,v[0],0)
+
+print('Total da soma:',sum(l1))
