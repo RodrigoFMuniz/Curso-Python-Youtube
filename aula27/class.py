@@ -10,6 +10,8 @@ class Pessoa:
     
     def get_nome(self):
         return self._nome
+    def set_name(self, nome):
+        self._nome = nome
 
 
 
@@ -26,4 +28,6 @@ print(pessoa_1._nome)
 print(type(pessoa_1._nome))
 print(pessoa_1.__repr__())
 print(pessoa_1.__str__())
+print('Get:',pessoa_1.get_nome())
+print('Set:', pessoa_1.set_name('Fernando'))
 print('Get:',pessoa_1.get_nome())
