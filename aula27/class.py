@@ -16,7 +16,7 @@ class Pessoa:
 
 class Funcionario(Pessoa):
     def __init__(self):
-        super().__init__(self)
+        super().__init__()
         self.cargo = None
 
 
