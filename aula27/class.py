@@ -10,8 +10,14 @@ class Pessoa:
     
     def get_nome(self):
         return self._nome
+
     def set_name(self, nome):
         self._nome = nome
+
+class Funcionario(Pessoa):
+    def __init__(self):
+        super().__init__(self)
+        self.cargo = None
 
 
 
@@ -31,3 +37,9 @@ print(pessoa_1.__str__())
 print('Get:',pessoa_1.get_nome())
 print('Set:', pessoa_1.set_name('Fernando'))
 print('Get:',pessoa_1.get_nome())
+
+func_1 = Funcionario()
+func_1.cargo = 'Office boy'
+func_1.set_name('Carlos')
+print(func_1.get_nome())
+print(func_1.cargo)
