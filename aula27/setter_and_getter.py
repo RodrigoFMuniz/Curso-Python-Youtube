@@ -19,6 +19,21 @@ class Person:
     @surname.setter
     def surname(self, surname):
         self.__surname = surname
+    
+    @property
+    def amigos(self):
+        return self.__amigos
+    
+    @amigos.setter
+    def amigos(self,amigo):
+        self.__amigos.append(amigo)
+    
+    def add_amigos(self, amigos=[]):
+        if len(amigos) > 0:
+            for a in amigos:
+                self.__amigos.append(a)
+        
+        
 
 p1 = Person('Rodrigo','Muniz')
 p2 = Person('Fernando','Muniz')
@@ -35,3 +50,7 @@ print(p1.name)
 print(p2.name)
 print(p1.surname)
 print(p2.surname)
+p1.amigos = 'Jéssica'
+print(p1.amigos)
+p1.add_amigos(['Cacau', 'Roberto', 'Silvia'])
+print(p1.amigos)
