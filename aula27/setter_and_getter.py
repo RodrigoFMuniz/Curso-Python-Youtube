@@ -31,16 +31,19 @@ class Person:
     def amigos(self,amigo):
         self.__amigos.append(amigo)
     
+    # def add_amigos(self, amigos=[]):
+    #     if len(amigos) > 0:
+    #         for a in amigos:
+    #             self.__amigos.append(a)
     def add_amigos(self, amigos=[]):
         if len(amigos) > 0:
-            for a in amigos:
-                self.__amigos.append(a)
+            self.__amigos.extend(amigos)
     
     def remove_amigo(self, amigo):
         try:
             self.__amigos.remove(amigo)
         except:
-            raise Exception('Valor não existe')
+            print(f'Valor {amigo} não existe na lista')
         
         
 
