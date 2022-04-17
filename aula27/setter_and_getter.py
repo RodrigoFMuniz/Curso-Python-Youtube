@@ -17,3 +17,5 @@ p2 = Person('Fernando','Muniz')
 
 print(p1.name)
 print(p2.name)
+print(p1.surname)
+print(p2.surname)
