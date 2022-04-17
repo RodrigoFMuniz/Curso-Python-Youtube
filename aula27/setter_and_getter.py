@@ -1,3 +1,6 @@
+from multiprocessing.sharedctypes import Value
+
+
 class Person:
     def __init__(self, name, surname):
         self.__name = name
@@ -32,6 +35,12 @@ class Person:
         if len(amigos) > 0:
             for a in amigos:
                 self.__amigos.append(a)
+    
+    def remove_amigo(self, amigo):
+        try:
+            self.__amigos.remove(amigo)
+        except:
+            raise Exception('Valor não existe')
         
         
 
@@ -53,4 +62,8 @@ print(p2.surname)
 p1.amigos = 'Jéssica'
 print(p1.amigos)
 p1.add_amigos(['Cacau', 'Roberto', 'Silvia'])
+print(p1.amigos)
+p1.remove_amigo('Roberto')
+print(p1.amigos)
+p1.remove_amigo('ggg')
 print(p1.amigos)
