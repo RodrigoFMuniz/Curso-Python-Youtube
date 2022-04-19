@@ -1,4 +1,3 @@
-import string
 def sum(*v):
     if len(v)==0:
         return f"Entre com um valor"
@@ -12,10 +11,17 @@ def sum(*v):
                 total+=n
             elif isinstance(num, str):
                 if num.isnumeric():
-                    total+=num
+                    n = float(num)
+                    total+=n
                 else:
                     pass
-                
+        return total
 
+
+                
+s = sum(1,2,'3', 4.6)
+d = sum()
+print(s)
+print(d)
 
 
