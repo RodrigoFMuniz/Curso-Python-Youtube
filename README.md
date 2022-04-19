@@ -803,48 +803,47 @@ Existem 4 tipos para classificação para os tipos de informações.
 
 # class
 
-    class Pessoa:
-        def __init__(self):
-            self._nome = None
+    class Person:
+        def __init__(self, name, surname):
+            self.__name = name.lower().capitalize()
+            self.__surname = surname.lower().capitalize()
+            self.__amigos = []
 
-        def __repr__(self):
-            return self._nome
+        @property
+        def name(self):
+            return self.__name
 
-        def __str__(self):
-            return self._nome
+        @property
+        def surname(self):
+            return self.__surname
 
-        def get_nome(self):
-            return self._nome
+        @name.setter
+        def name(self, name):
+            self.__name = name.lower().capitalize()
 
-        def set_name(self, nome):
-            self._nome = nome
+        @surname.setter
+        def surname(self, surname):
+            self.__surname = surname.lower().capitalize()
 
-    class Funcionario(Pessoa):
-        def __init__(self):
-            super().__init__()
-            self.cargo = None
+        @property
+        def amigos(self):
+            return self.__amigos
 
+        @amigos.setter
+        def amigos(self,amigo):
+            self.__amigos.append(amigo)
 
+        def add_amigos(self, amigos=[]):
+            if len(amigos) > 0:
+                for a in amigos:
+                    self.__amigos.append(a.lower().capitalize())
+        # def add_amigos(self, amigos=[]):
+        #     if len(amigos) > 0:
+        #         self.__amigos.extend(amigos)
 
-    pessoa_1 = Pessoa()
+        def remove_amigo(self, amigo):
+            try:
+                self.__amigos.remove(amigo)
+            except:
+                print(f'Valor {amigo} não existe na lista')
 
-    print(pessoa_1._nome)
-    print(type(pessoa_1._nome))
-    print(pessoa_1.__repr__())
-    print(pessoa_1.__str__())
-
-    pessoa_1._nome='Rodrigo'
-
-    print(pessoa_1._nome)
-    print(type(pessoa_1._nome))
-    print(pessoa_1.__repr__())
-    print(pessoa_1.__str__())
-    print('Get:',pessoa_1.get_nome())
-    print('Set:', pessoa_1.set_name('Fernando'))
-    print('Get:',pessoa_1.get_nome())
-
-    func_1 = Funcionario()
-    func_1.cargo = 'Office boy'
-    func_1.set_name('Carlos')
-    print(func_1.get_nome())
-    print(func_1.cargo)
