@@ -1,6 +1,3 @@
-from multiprocessing.sharedctypes import Value
-
-
 class Person:
     def __init__(self, name, surname):
         self.__name = name.lower().capitalize()
