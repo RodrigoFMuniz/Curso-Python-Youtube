@@ -1,4 +1,4 @@
-def sum(*v):
+def sum(v=[]):
     if len(v)==0:
         return f"Entre com um valor"
     else:
@@ -18,10 +18,11 @@ def sum(*v):
         return total
 
 
+if __name__ == "__main__":
                 
-s = sum(1,2,'3', 4.6)
-d = sum()
-print(s)
-print(d)
+    s = sum([1,2,'3', 4.6])
+    d = sum()
+    print(s)
+    print(d)
 
 
