@@ -881,3 +881,25 @@ Existem 4 tipos para classificação para os tipos de informações.
     entrada = [1,2,3,4, 'sum', '34']
 
     print(sum(entrada))
+
+## main
+
+### main.py
+
+    def sum(lista = []):
+        total = 0
+        for i in lista:
+            total+= int(i)
+        return total
+
+    if __name__ == "__main__":
+        print(f'Chamou a função {sum.__name__} a partir do módulo main.py, quando chamado em {__name__}')
+
+### importador.py
+
+    from main import sum
+
+    print(sum([1,2,3,4]))
+
+    if __name__ == "__main__":
+        print(f'Chamou a função {sum.__name__} a partir do módulo importador.py, quando chamado em {__name__}')
