@@ -2,4 +2,5 @@ from main import sum
 
 print(sum([1,2,3,4]))
 
-print(f'Executando {sum.__name__} importado por este módulo {__name__} ')
+if __name__ == "__main__":
+    print(f'Chamou a função {sum.__name__} a partir do módulo importador.py, quando chamado em {__name__}')
