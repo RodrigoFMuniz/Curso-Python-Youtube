@@ -903,3 +903,11 @@ Existem 4 tipos para classificação para os tipos de informações.
 
     if __name__ == "__main__":
         print(f'Chamou a função {sum.__name__} a partir do módulo importador.py, quando chamado em {__name__}')
+
+### Split and Join
+
+    s1 = "Hello, World, Again"
+    s1_splitted = s1.split(',')
+    print(s1_splitted)
+    s1_joined = "|".join(s1_splitted)
+    print(s1_joined)
