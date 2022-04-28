@@ -911,3 +911,8 @@ Existem 4 tipos para classificação para os tipos de informações.
     print(s1_splitted)
     s1_joined = "|".join(s1_splitted)
     print(s1_joined)
+
+### Pacotes
+
+    Criar `__init__.py`
+    Criar os novos módulos
