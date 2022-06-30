@@ -18,3 +18,6 @@ print(dt.year)
 
 # timetuple.tm_yday
 print(dt.timetuple().tm_yday)
+
+# timetuple.tm_isdst
+print(dt.timetuple().tm_isdst)
