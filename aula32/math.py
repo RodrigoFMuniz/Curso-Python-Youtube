@@ -8,3 +8,7 @@ print(math.sin(45))
 
 # cos
 print(math.cos(45))
+
+#log
+print(math.log(100, 10))
+print(math.log(64, 2))
