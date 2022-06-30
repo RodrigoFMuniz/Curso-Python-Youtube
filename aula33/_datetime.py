@@ -2,3 +2,7 @@ import datetime
 
 # basics datetime
 print(dir(datetime))
+
+# Basic use Today
+dt = datetime.date.today()
+print(dt)
