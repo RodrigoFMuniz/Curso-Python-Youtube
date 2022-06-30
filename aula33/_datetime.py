@@ -12,3 +12,6 @@ print(dt.day)
 
 # Month
 print(dt.month)
+
+# Year
+print(dt.year)
