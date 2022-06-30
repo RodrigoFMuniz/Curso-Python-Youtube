@@ -15,3 +15,6 @@ print(math.log(64, 2))
 
 #euler number
 print(math.e)
+
+# PI number
+print(math.pi)
