@@ -24,3 +24,6 @@ print(dt.timetuple().tm_isdst)
 
 # timetuple.tm_mday
 print(dt.timetuple().tm_mday)
+
+# strftime
+print(dt.strftime('%d/%m/%Y :: %H:%M:%S'))
