@@ -9,3 +9,6 @@ print(dt)
 
 # day
 print(dt.day)
+
+# Month
+print(dt.month)
