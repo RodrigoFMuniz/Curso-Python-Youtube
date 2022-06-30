@@ -21,3 +21,6 @@ print(dt.timetuple().tm_yday)
 
 # timetuple.tm_isdst
 print(dt.timetuple().tm_isdst)
+
+# timetuple.tm_mday
+print(dt.timetuple().tm_mday)
