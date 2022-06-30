@@ -14,5 +14,4 @@ print(math.log(100, 10))
 print(math.log(64, 2))
 
 #euler number
-
 print(math.e)
