@@ -15,3 +15,6 @@ print(dt.month)
 
 # Year
 print(dt.year)
+
+# timetuple.tm_yday
+print(dt.timetuple().tm_yday)
