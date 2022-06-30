@@ -1,4 +1,4 @@
 import math
 
-# Square root
+# square root
 print(math.sqrt(4))
