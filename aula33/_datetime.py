@@ -37,3 +37,7 @@ d = datetime.date(datetime(2022, 4, 23))
 print(d)
 d2 = date(2022, 1, 2)
 print(d2)
+
+# Datetime
+dt1 = datetime(2022, 10, 20, 12, 34, 10, 345311)
+print(dt1)
