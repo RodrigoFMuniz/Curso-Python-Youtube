@@ -9,5 +9,10 @@ rd2 = random.randint(1, 10)
 print(rd2)
 
 # randrange
-rd2 = random.randrange(1, 40, 3)
-print(rd2)
+rd3 = random.randrange(1, 40, 3)
+print(rd3)
+
+# Choice
+x = [1, 2, 3, 1, 'e', 'tr', 'er-3', 34]
+rd4 = random.choice(x)
+print(rd4)
