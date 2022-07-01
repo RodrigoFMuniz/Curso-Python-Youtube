@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date, datetime
 
 # basics datetime
 print(dir(datetime))
@@ -35,3 +35,5 @@ print(dt.strftime('%d/%m/%Y :: %H:%M:%S'))
 # Date
 d = datetime.date(datetime(2022, 4, 23))
 print(d)
+d2 = date(2022, 1, 2)
+print(d2)
