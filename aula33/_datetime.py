@@ -31,3 +31,7 @@ print(dt.timetuple().tm_mday)
 
 # strftime
 print(dt.strftime('%d/%m/%Y :: %H:%M:%S'))
+
+# Date
+d = datetime.date(datetime(2022, 4, 23))
+print(d)
