@@ -1,10 +1,14 @@
-import datetime
+from datetime import datetime
 
 # basics datetime
 print(dir(datetime))
 
+# Datetime now
+now = datetime.now()
+print(now)
+
 # Basic use Today
-dt = datetime.date.today()
+dt = datetime.today()
 print(dt)
 
 # day
