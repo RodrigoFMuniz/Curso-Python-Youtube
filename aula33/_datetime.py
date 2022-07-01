@@ -41,3 +41,7 @@ print(d2)
 # Datetime
 dt1 = datetime(2022, 10, 20, 12, 34, 10, 345311)
 print(dt1)
+print(dt1.hour)
+print(dt1.minute)
+print(dt1.second)
+print(dt1.microsecond)
