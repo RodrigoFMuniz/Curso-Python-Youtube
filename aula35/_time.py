@@ -18,3 +18,7 @@ depois = tm.time()
 intervalo = depois - antes
 
 print(f'{intervalo*1000} ms')
+
+# sleep
+tm.sleep(2)
+print('Passaram 2 segundos')
