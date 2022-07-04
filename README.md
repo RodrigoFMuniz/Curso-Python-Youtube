@@ -919,3 +919,5 @@ Existem 4 tipos para classificação para os tipos de informações.
 
 ### Random
 
+### time
+
