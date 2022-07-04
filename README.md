@@ -916,3 +916,6 @@ Existem 4 tipos para classificação para os tipos de informações.
 
     Criar `__init__.py`
     Criar os novos módulos
+
+### Random
+
