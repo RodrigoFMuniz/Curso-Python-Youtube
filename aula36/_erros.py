@@ -11,7 +11,7 @@ IndexError: Índice está fora da correção
 
 try:
     print(name)
-except NameError:
-    print(NameError)
+except NameError as error:
+    print(f'error: {error}')
 else:
     print('Finalizado')
