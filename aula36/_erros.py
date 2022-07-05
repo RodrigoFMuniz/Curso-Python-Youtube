@@ -15,7 +15,7 @@ from decimal import DivisionByZero
 
 try:
     # name = {'oi':'olá'}
-    x = 1/0
+    x = 1/1
     print(x)
 except NameError as error:
     print(f'error do tipo NameError: {error}')
@@ -27,5 +27,7 @@ except IndexError as error:
     print(f'Erro do tipo IndexError: {error}')
 except ZeroDivisionError as error:
     print(f'Erro do tipo ZeroDivisionError: {error}')
+else:
+    print('Usado o else')
 finally:
     print('Finalizado')
