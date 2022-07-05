@@ -27,5 +27,5 @@ except IndexError as error:
     print(f'Erro do tipo IndexError: {error}')
 except ZeroDivisionError as error:
     print(f'Erro do tipo ZeroDivisionError: {error}')
-else:
+finally:
     print('Finalizado')
