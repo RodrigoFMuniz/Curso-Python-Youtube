@@ -11,12 +11,14 @@ ValueError: Erro de valor inserido
 # NameError
 
 try:
-    name = ['Rodrigo']
-    print(name[1])
+    name = {'oi':'olá'}
+    print(name['oi'])
 except NameError as error:
     print(f'error do tipo NameError: {error}')
 except ValueError as error:
     print(f'Erro do tipo ValueError: {error}')
+except KeyError as error:
+    print(f'Erro do tipo KeyError: {error}')
 except IndexError as error:
     print(f'Erro do tipo IndexError: {error}')
 else:
