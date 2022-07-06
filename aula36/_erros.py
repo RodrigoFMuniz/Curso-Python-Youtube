@@ -8,11 +8,6 @@ IndexError: Índice está fora da correção
 ValueError: Erro de valor inserido
 '''
 
-# NameError
-
-from decimal import DivisionByZero
-
-
 try:
     # name = {'oi':'olá'}
     x = 1/1
