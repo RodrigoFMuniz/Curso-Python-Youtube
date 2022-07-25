@@ -919,5 +919,10 @@ Existem 4 tipos para classificação para os tipos de informações.
 
 ### Random
 
+import random
+
+    n = random.randint(1,10)
+    print(n)
+
 ### time
 
