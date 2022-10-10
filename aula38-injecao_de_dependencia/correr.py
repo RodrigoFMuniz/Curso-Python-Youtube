@@ -1,3 +1,3 @@
 class FazerCorrida:
-    def ação(self):
+    def acao(self):
         print("Estou correndo")
