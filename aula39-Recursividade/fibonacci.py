@@ -6,6 +6,7 @@ RecursionError: maximum recursion depth exceeded
 
 fib2(): Apresenta falha para valores de n muito grandes, por conta da PG de operações recursivas
 fib3(): Utiliza um objeto do tipo memo para ganhar desempenho
+fib4(): Utiliza lru_cache annotation
 '''
 from typing import Dict
 from functools import lru_cache
